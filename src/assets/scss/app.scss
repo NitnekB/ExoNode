@@ -49,3 +49,8 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import 'atoms/buttons';
+@import 'atoms/typography';
+
+@import 'molecules/footer';

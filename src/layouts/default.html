@@ -11,15 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>My wonderful Project : ExoNode</h1>
-      </div>
-    </div>
-    <hr>
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> header}}
     {{> body}}
+    {{> footer}}
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>

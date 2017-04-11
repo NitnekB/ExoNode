@@ -1,0 +1,23 @@
+.game {
+  background: url(../img/games.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  min-height: 900px;
+
+  .game-content {
+    padding-top: 5%;
+    .callout {
+      p {
+        padding-top: 8px;
+        text-align: justify;
+      }
+    }
+  }
+
+  h1 {
+    font-family: 'Indie Flower', cursive;
+    color: whitesmoke;
+    margin-bottom: 4%;
+  }
+}

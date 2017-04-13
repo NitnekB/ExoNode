@@ -1,0 +1,22 @@
+<section class="game">
+  <div class="game-content">
+    <div class="row small-up-1 medium-up-2 large-up-3">
+      <h1>Video-games list to help you becoming fat !</h1>
+      {{#each game}}
+        <div class="columns">
+          <div class="callout">
+            <span class="label">{{this.support}}</span>
+            <p>
+              <strong>{{this.name}}</strong>
+            </p>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+    <!--<div class="row">
+      <div class="column small-centered small-4">
+        <a href="contact.html" class="button large secondary">Contact me</a>
+      </div>
+    </div>-->
+  </div>
+</section>

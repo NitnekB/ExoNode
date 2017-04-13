@@ -6,7 +6,7 @@
 
 @include foundation-global-styles;
 @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -49,3 +49,12 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import 'atoms/buttons';
+@import 'atoms/typography';
+
+@import 'molecules/header';
+@import 'molecules/footer';
+
+@import 'organisms/index';
+@import 'organisms/game';

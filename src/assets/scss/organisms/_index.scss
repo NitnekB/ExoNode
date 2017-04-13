@@ -1,0 +1,15 @@
+.main {
+  background: url(../img/main.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  min-height: 900px;
+
+  .main-content {
+    padding-top: 5%;
+  }
+
+  h1, h2 {
+    font-family: 'Indie Flower', cursive;
+  }
+}

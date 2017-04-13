@@ -1,0 +1,19 @@
+.sitemap {
+  background: url(../img/sitemap.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  min-height: 900px;
+
+  .sitemap-content {
+    padding-top: 5%;
+    text-align: center;
+    li {
+      list-style-type: none;
+      font-size: 20px;
+      a {
+        color: black;
+      }
+    }
+  }
+}
